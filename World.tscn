@@ -21,6 +21,7 @@ light_mode = 0
 
 [node name="Lucy" type="KinematicBody2D" parent="." index="0"]
 
+editor/display_folded = true
 position = Vector2( 736.768, 282.912 )
 input_pickable = false
 collision_layer = 1
@@ -69,15 +70,13 @@ shape = SubResource( 1 )
 
 [node name="Ego" type="KinematicBody2D" parent="." index="1"]
 
+editor/display_folded = true
 position = Vector2( 742.21, 145.514 )
 input_pickable = false
 collision_layer = 1
 collision_mask = 1
 collision/safe_margin = 0.08
 script = ExtResource( 3 )
-__meta__ = {
-"_edit_group_": true
-}
 
 [node name="Sprite" type="Sprite" parent="Ego" index="0"]
 
