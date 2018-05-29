@@ -21,7 +21,6 @@ light_mode = 0
 
 [node name="Lucy" type="KinematicBody2D" parent="." index="0"]
 
-editor/display_folded = true
 position = Vector2( 736.768, 282.912 )
 input_pickable = false
 collision_layer = 1
